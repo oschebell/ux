@@ -1,0 +1,21 @@
+<svg width="209" height="224" viewBox="0 0 209 224" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Component</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(393 204)">
+<g id="Component">
+<g id="Rectangle 2.1">
+<use xlink:href="#path0_fill" transform="translate(-393 -204)" fill="#C4C4C4"/>
+</g>
+<g id="Rectangle 2.2">
+<use xlink:href="#path1_fill" transform="translate(-362 -170)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 2.3">
+<use xlink:href="#path1_fill" transform="translate(-362 -136)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 209 0L 209 224L 0 224L 0 0Z"/>
+<path id="path1_fill" d="M 0 7C 0 3.13401 3.13401 0 7 0L 139.939 0C 143.805 0 146.939 3.13401 146.939 7C 146.939 10.866 143.805 14 139.939 14L 6.99999 14C 3.134 14 0 10.866 0 7Z"/>
+</defs>
+</svg>
