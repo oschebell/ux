@@ -1,17 +1,17 @@
 <template>
 
   <div class="hello">
-    <!-- <img :src="require('../assets/images/form.png')" -->
     <h1 class="mb-4">{{ msg }}</h1>
-
-    <button class="bg-blue hover:bg-blue-light text-white font-bold py-2 px-4 border-b-4 border-blue-dark hover:border-blue rounded">
-      On
-    </button>
-
-    <button class="bg-red hover:bg-red-light text-white font-bold py-2 px-4 border-b-4 border-red-dark hover:border-red rounded">
-      Off
-    </button>
+    <div class="px-2">
+      <div class="flex -mx-2">
+        <div class="w-1/4 h-12"><router-link v-bind:to="'/forms'"><img src="/static/images/form.svg"></router-link></div>
+        <div class="w-1/4 h-12"><img src="/static/images/form.svg"></div>
+        <div class="w-1/4 h-12"><img src="/static/images/form.svg"></div>
+        <div class="w-1/4 h-12"><img src="/static/images/form.svg"></div>
+      </div>
+    </div>
   </div>
+
 </template>
 
 <script>
