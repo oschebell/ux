@@ -4,10 +4,13 @@
     <h1 class="mb-4">{{ msg }}</h1>
     <div class="px-2">
       <div class="flex -mx-2">
-        <div class="w-1/4 h-12"><router-link v-bind:to="'/forms'"><img src="/static/images/form.svg"></router-link></div>
-        <div class="w-1/4 h-12"><img src="/static/images/form.svg"></div>
-        <div class="w-1/4 h-12"><img src="/static/images/form.svg"></div>
-        <div class="w-1/4 h-12"><img src="/static/images/form.svg"></div>
+        <div class="w-1/5">
+            <img src="/static/images/actions.svg">
+        </div>
+        <div class="w-1/5"><router-link v-bind:to="'/forms'"><img src="/static/images/form.svg"></router-link></div>
+        <div class="w-1/5"><img src="/static/images/tables.svg"></div>
+        <div class="w-1/5"><img src="/static/images/messages.svg"></div>
+        <div class="w-1/5"><img src="/static/images/navigation.svg"></div>
       </div>
     </div>
   </div>
@@ -19,7 +22,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to the index page'
+      msg: 'Micro UX'
     }
   }
 }
