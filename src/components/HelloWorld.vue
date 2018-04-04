@@ -4,10 +4,8 @@
     <h1 class="mb-4">{{ msg }}</h1>
     <div class="px-2">
       <div class="flex -mx-2">
-        <div class="w-1/5">
-            <img src="/static/images/actions.svg">
-        </div>
-        <div class="w-1/5"><router-link v-bind:to="'/forms'"><img src="/static/images/form.svg"></router-link></div>
+        <div class="w-1/5"><router-link v-bind:to="'/actions'"><img src="/static/images/actions.svg"></router-link></div>
+        <div class="w-1/5"><router-link v-bind:to="'/forms'"><img src="/static/images/forms.svg"></router-link></div>
         <div class="w-1/5"><img src="/static/images/tables.svg"></div>
         <div class="w-1/5"><img src="/static/images/messages.svg"></div>
         <div class="w-1/5"><img src="/static/images/navigation.svg"></div>

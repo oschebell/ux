@@ -11,12 +11,18 @@ import Hello from './components/HelloWorld'
 
 import About from './components/About'
 
+import Actions from './components/Actions'
+
+import Forms from './components/Forms'
+
 //tell vue to use the router
 Vue.use(VueRouter)
 //define your routes
 const routes = [
   { path: '/', component: Hello },
-  { path: '/about', component: About}
+  { path: '/about', component: About},
+  { path: '/actions', component: Actions},
+  { path: '/forms', component: Forms}
 
 ]
 
